@@ -579,6 +579,24 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscribe-container">
+          <p class="subscribe-title">Підпишіться на розсилку</p>
+          <div class="subscribe-input-container">
+            <input
+              type="mail"
+              name="subscribe-input"
+              class="subscribe-input"
+              placeholder="E-mail"
+            />
+            <button type="button" class="button primary btn-subscribe">
+              Підписатися
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -649,6 +667,27 @@
               class="input-comment"
               placeholder="Введіть текст"
             ></textarea>
+          </div>
+
+          <div class="checkbox-field">
+            <input
+              type="checkbox"
+              id="privacy-policy"
+              name="privacy-policy"
+              value="on"
+              class="hidden modal-check"
+              required
+            />
+            <!--  -->
+            <label for="privacy-policy" class="checkbox-label"
+              ><span class="checkbox">
+                <svg class="checkbox-icon">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              Погоджуюся з розсилкою та приймаю
+              <a href="" class="link agreement-link">Умови договору</a>
+            </label>
           </div>
 
           <button type="submit" class="button primary btn-submit">
