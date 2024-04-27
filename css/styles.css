@@ -956,8 +956,7 @@ ul {
 }
 
 .modal-check:focus + .checkbox-label > .checkbox {
-  background-color: var(--accent-color);
-  border: none;
+  border-color: var(--accent-color);
   fill: var(--primary-white-color);
 }
 
